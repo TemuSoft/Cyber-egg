@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cyber EGG</string>
+    <string name="start">Start</string>
+    <string name="play">Play</string>
+    <string name="game_rule">Single mode (one manipulator)\n\nTwo-person mode (two manipulators)\n\nCall mode (control of two manipulators)</string>
+    <string name="game_mode">Game Mode</string>
+</resources>

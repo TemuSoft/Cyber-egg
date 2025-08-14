@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CyberEGG" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.CyberEGG" parent="Base.Theme.CyberEGG" />
+
+
+    <style name="text0Theme">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/inter_tight_bold_italic</item>
+    </style>
+
+    <style name="text1Theme">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="fontFamily">@font/inter_tight_bold_italic</item>
+    </style>
+</resources>

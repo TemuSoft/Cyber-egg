@@ -1,0 +1,7 @@
+Name: Cyber EGG
+password: C7berEggCE08
+Alias: cyber_egg
+Package ID: com.CyberEgg.CE0808
+Application version: 1.0
+Build version: 1
+Min SDK version: 26
