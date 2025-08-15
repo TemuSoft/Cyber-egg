@@ -22,20 +22,28 @@
             android:src="@drawable/back" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end">
 
-            <androidx.appcompat.widget.AppCompatButton
+            <LinearLayout
+                android:background="@drawable/title_rect"
                 android:layout_width="300dp"
                 android:layout_height="90dp"
-                android:background="@drawable/title_rect"
-                android:paddingBottom="10dp"
-                android:text="@string/game_mode"
-                android:textSize="20dp"
-                android:theme="@style/text0Theme" />
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/game_mode"
+                    android:textSize="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:theme="@style/text0Theme" />
+            </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="@string/game_rule"
@@ -66,7 +74,7 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/single_mode_btn"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="45dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/btn_green"
                 android:text="@string/play"
@@ -89,7 +97,7 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/two_player_mode_btn"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="45dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/btn_gray"
                 android:text="@string/play"
@@ -112,7 +120,7 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/call_mode_btn"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="45dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/btn_gray"
                 android:text="@string/play"

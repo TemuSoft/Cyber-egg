@@ -4,4 +4,14 @@
     <string name="play">Play</string>
     <string name="game_rule">Single mode (one manipulator)\n\nTwo-person mode (two manipulators)\n\nCall mode (control of two manipulators)</string>
     <string name="game_mode">Game Mode</string>
+    <string name="points">Points:</string>
+    <string name="mistake">Mistake:</string>
+    <string name="play_again">Play Again</string>
+    <string name="game_over">Game Over</string>
+    <string name="shop">Shop</string>
+    <string name="custom_background">Custom Background</string>
+    <string name="select">Select</string>
+    <string name="selected">Selected</string>
+    <string name="buy">BUY</string>
+    <string name="set">Set</string>
 </resources>
