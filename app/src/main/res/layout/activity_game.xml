@@ -7,6 +7,12 @@
     android:background="@drawable/bg_main"
     tools:context=".GameActivity">
 
+    <LinearLayout
+        android:id="@+id/layout_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
 
     <LinearLayout
         android:id="@+id/layout_game_over"
